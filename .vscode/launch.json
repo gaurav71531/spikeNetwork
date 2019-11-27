@@ -9,7 +9,9 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "terminal.integrated.shell.osx": "/bin/zsh",
+            "terminal.integrated.shellArgs.osx": [],
         }
     ]
 }
